@@ -1561,6 +1561,95 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Modal
+--------------------------------------------------------------*/
+
+.modal-dialog {
+    width: 850px !important;
+}
+.modal-header {
+    background-color: #7f1561;
+}
+.modal-title {
+    font-family: "Roboto", Sans-serif;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.assafList {
+    margin: 0;
+    padding: 0;
+}
+.titlePosition {
+    color: gold;
+    font-size: 14px;
+}
+.modalContent {
+    height: 300px;
+    margin-left: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#alex h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+.modalContent p {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.modal-header .close {
+    color: #FFFFFF;
+    opacity: 0.7;
+    outline: none !important;
+}
+.btn-danger {
+    color: #fff;
+    outline: none;
+    background-color: #7f1561 !important;
+    border: none !important;
+}
+.btn-close {
+    outline: none !important;
+}
+.flogo {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 213px;
+}
+.flogo img {
+    width:200px;
+}
+.hlogo {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+.hlogo img {
+    width:200px;
+}
+.cohosted p {
+    margin-top: 10px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 

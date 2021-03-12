@@ -35,9 +35,51 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     
+    
 </head>
 
 <body>
+	
+	
+	    <!-- Yahia Modal -->
+  <div class="modal fade" id="yahia" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Prof. Yahia Antar, <span class="titlePosition">Professor in Department of Electrical and Computer Engineering, Royal Military College of Canada</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/speakers/yahia.jpg" alt="yahia" width="170px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>Prof. Yahia M. M. Antar is a Fellow of the IEEE, Engineering Institute of Canada, the Electromagnetic Academy, and the International Union of Radio Science. 
+					 He served as the Chair of CNC, URSI (1999–2008), and Commission B (1993–1999). He serves as an Associate Editor of many IEEE and IET journals and as an IEEE-APS Distinguished Lecturer. 
+					 In 2002, he was awarded a Tier 1 Canada Research Chair in electromagnetic engineering, which has been renewed in 2016.
+					 In 2003, he was awarded the Royal Military College of Canada Excellence in Research Prize, and the RMCC Class of 1965 Teaching Excellence Award, in 2012.
+
+					 He was elected by the URSI to the Board as the Vice President, in 2008 and 2014, and by the IEEE AP AdCom., in 2009.
+					 He was appointed as a member of the Canadian Defence Advisory Board of the Canadian Department of National Defence, in 2011.
+					 In 2012, he received the Queens Diamond Jubilee Medal from the Governor General of Canada in recognition for his contribution to Canada.
+					 He was a recipient of the 2014 IEEE Canada RA Fessenden Silver Medal for Ground Breaking Contributions to Electromagnetics and Communications, and the 2015 IEEE Canada J. M. Ham outstanding Engineering Education Award.
+					 In 2015, he received the Royal Military College of Canada Cowan Prize for excellence in research. He was a recipient of the IEEE-AP-S the Chen-To-Tai Distinguished Educator Award, in 2017.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+	
     
     <div class="col-lg-12">
                  <img src="img/header.jpg" alt="HEADER" heaight="200" class="img-fluid"/>
@@ -157,15 +199,17 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
                                     <div class="speaker">
-                                      <a href="speaker-details3.html" >  <img src="img/speakers/yahia.jpg" alt="Speaker 3" class="img-fluid"></a>
+									<a href="#" data-toggle="modal" data-target="#yahia">
+                                      <img src="img/speakers/yahia.jpg" alt="Speaker 3" class="img-fluid">
                                         <div class="details">
-                                            <h3><a href="speaker-details3.html">Prof. Yahia Antar</a></h3>
+                                            <h3>Prof. Yahia Antar</h3>
                                             <p style="text-align: center;">Professor in Department of Electrical and Computer Engineering, Royal Military College of Canada</p>
                                             <br>
                                           <div class="social">
                                                 <a href="https://www.linkedin.com/in/yahia-antar-2a333b6a/"><i class="fa fa-linkedin"></i></a>
                                             </div>
                                         </div>
+                                        </a>
                                     </div>
                                 </div>
                             
