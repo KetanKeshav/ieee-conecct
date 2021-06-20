@@ -1,4 +1,4 @@
-/*!
+`/*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -996,7 +996,18 @@ pre code {
   .offset-sm-11 {
     margin-left: 91.666667%;
   }
+  
+  
 }
+
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  
+  }
+
 
 @media (min-width: 768px) {
   .col-md {

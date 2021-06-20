@@ -1649,6 +1649,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .button1 {background-color: #4CAF50;}
 
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.center {
+margin: auto;
+width: 60%;
+padding: 10px;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
